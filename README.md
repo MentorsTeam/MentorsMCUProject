@@ -1,4 +1,4 @@
-MentorsMCUProject
+Mentors MCU Project
 =================
 
-MCU software project repository
+MCU software project repository.
