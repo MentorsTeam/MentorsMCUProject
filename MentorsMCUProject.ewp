@@ -121,7 +121,7 @@
         </option>
         <option>
           <name>GHeap20Size</name>
-          <state>###Uninitialized###</state>
+          <state>80</state>
         </option>
         <option>
           <name>GeneralMisraRules98</name>
@@ -834,7 +834,7 @@
         </option>
         <option>
           <name>ExtraOutputFile</name>
-          <state>templproj.a43</state>
+          <state>MentorsMCUProject.a43</state>
         </option>
         <option>
           <name>ExtraOutputFormat</name>
@@ -1869,7 +1869,28 @@
     </settings>
   </configuration>
   <file>
+    <name>$PROJ_DIR$\camera.c</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\compass.c</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\infrared.c</name>
+  </file>
+  <file>
     <name>$PROJ_DIR$\main.c</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\motion_meter.c</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\motors.c</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\sensing_motor.c</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\ultrasonic.c</name>
   </file>
 </project>
 

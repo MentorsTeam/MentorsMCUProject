@@ -1,16 +1,17 @@
 /* ----------------------------------- 
  * Mentors Team
  * ----------------------------------- 
- * motion.h
- * header file for motion control sub-system
+ * parameters.h
+ * header file for parameters (eg. constants)
  *
  * created by: FENG Zili
  * date: 2012.09.20
 */
 
-#ifndef _MOTION_H_
-#define _MOTION_H_
+#ifndef _PARAMETERS_H_
+#define _PARAMETERS_H_
 
-
+#define GROUND_WIDTH  2400
+#define GROUND_HEIGHT 2400
 
 #endif

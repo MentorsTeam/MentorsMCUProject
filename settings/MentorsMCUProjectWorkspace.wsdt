@@ -12,7 +12,7 @@
           
           
           
-        <Column0>168</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+        <Column0>151</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
       </Workspace>
       <Build>
         
@@ -32,7 +32,7 @@
             <Factory>Workspace</Factory>
             <Session>
               
-            <NodeDict><ExpandedNode>MentorsMCUProject</ExpandedNode><ExpandedNode>MentorsMCUProject/main.c</ExpandedNode><ExpandedNode>MentorsMCUProject/main.c/Output</ExpandedNode></NodeDict></Session>
+            <NodeDict><ExpandedNode>MentorsMCUProject</ExpandedNode><ExpandedNode>MentorsMCUProject/main.c</ExpandedNode></NodeDict></Session>
           </Tab>
         </Tabs>
         
@@ -52,14 +52,14 @@
       
       
       
-    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>378</SelStart><SelEnd>378</SelEnd></Tab><ActiveTab>0</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\sensor.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>237</SelStart><SelEnd>237</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\motion.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>244</SelStart><SelEnd>244</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\motions.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>293</SelStart><SelEnd>293</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.0 Evaluation\430\inc\intrinsics.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\sensors.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>232</SelStart><SelEnd>232</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\ultrasonic.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>448</SelStart><SelEnd>448</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\motion_meter.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>133</SelStart><SelEnd>155</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\compass.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>193</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\camera.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>184</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\motors.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>204</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\sensing_motor.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>232</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\ultrasonic.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>232</SelStart><SelEnd>232</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\infrared.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>222</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\basic_types.h</Filename><XPos>0</XPos><YPos>6</YPos><SelStart>291</SelStart><SelEnd>291</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\parameters.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>310</SelStart><SelEnd>310</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\motion_meter.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>179</SelStart><SelEnd>179</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\compass.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>216</SelStart><SelEnd>216</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\main.c</Filename><XPos>0</XPos><YPos>26</YPos><SelStart>1198</SelStart><SelEnd>1198</SelEnd></Tab><ActiveTab>15</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\camera.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>206</SelStart><SelEnd>206</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\motors.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>226</SelStart><SelEnd>226</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\sensing_motor.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>233</SelStart><SelEnd>233</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\infrared.h</Filename><XPos>0</XPos><YPos>6</YPos><SelStart>460</SelStart><SelEnd>460</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
     <Positions>
       
       
       
       
       
-    <Top><Row0><Sizes><Toolbar-00d412c8><key>iaridepm.enu1</key></Toolbar-00d412c8></Sizes></Row0></Top><Left><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>577</Bottom><Right>242</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>98</yscreen><sizeHorzCX>156250</sizeHorzCX><sizeHorzCY>136490</sizeHorzCY><sizeVertCX>190625</sizeVertCX><sizeVertCY>806407</sizeVertCY></Rect></Wnd2></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>96</Bottom><Right>1282</Right><x>-2</x><y>-2</y><xscreen>1284</xscreen><yscreen>98</yscreen><sizeHorzCX>1003125</sizeHorzCX><sizeHorzCY>136490</sizeHorzCY><sizeVertCX>156250</sizeVertCX><sizeVertCY>136490</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+    <Top><Row0><Sizes><Toolbar-002712c8><key>iaridepm.enu1</key></Toolbar-002712c8></Sizes></Row0></Top><Left><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>492</Bottom><Right>242</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>98</yscreen><sizeHorzCX>156250</sizeHorzCX><sizeHorzCY>136490</sizeHorzCY><sizeVertCX>190625</sizeVertCX><sizeVertCY>688022</sizeVertCY></Rect></Wnd2></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>181</Bottom><Right>1282</Right><x>-2</x><y>-2</y><xscreen>1284</xscreen><yscreen>183</yscreen><sizeHorzCX>1003125</sizeHorzCX><sizeHorzCY>254875</sizeHorzCY><sizeVertCX>156250</sizeVertCX><sizeVertCY>136490</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
   </Desktop>
 </Workspace>
 
