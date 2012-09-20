@@ -9,3 +9,27 @@
 */
 
 #include "motors.h"
+
+void BeginRotateForward(Motor motor) {
+    
+}
+
+void BeginRotateBackward(Motor motor) {
+    
+}
+
+void BeginMoveAhead() {
+    
+}
+
+void BeginMoveBackward() {
+    
+}
+
+void StopRotate(Motor moter) {
+    
+}
+
+void StopMove() {
+    
+}

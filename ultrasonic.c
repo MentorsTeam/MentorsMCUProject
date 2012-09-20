@@ -11,7 +11,7 @@
 #include "ultrasonic.h"
 
 void BeginSensing() {
-  
+    
 }
 
 /* ------------------------------ 
@@ -19,8 +19,19 @@ void BeginSensing() {
  * ------------------------------
 */
 /*
-#pragma vector=GET_ULTRASONIC_SIGNAL
-_interupt DidGetUltrasonicSignal() {
+
+#pragma vector=DID_SEND_BEGIN_SENSING_MESSAGE
+__interupt DidSendBeginSensingMessage() {
+    
+}
+
+#pragma vector=GET_ULTRASONIC_SIGNAL_UP
+__interupt DidReceiveUltrasonicSignalUp() {
+    
+}
+
+#pragma vector=GET_ULTRASONIC_SIGNAL_DOWN
+__interupt DidReceiveUltrasonicSignalDown() {
     
 }
 */

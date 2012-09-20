@@ -11,6 +11,17 @@
 #ifndef _MOTORS_H_
 #define _MOTORS_H_
 
+enum {
+    MotorLeft,
+    MotorRight
+} Motor;
 
+void BeginRotateForward(Motor motor);
+void BeginRotateBackward(Motor motor);
+void BeginMoveAhead();
+void BeginMoveBackward();
+
+void StopRotate(Motor moter);
+void StopMove();
 
 #endif
