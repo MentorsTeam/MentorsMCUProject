@@ -18,14 +18,14 @@ void BeginSensing();
  * ------------------------------
 */
 /*
-#pragma vector=DID_SEND_BEGIN_SENSING_MESSAGE
+#pragma - DID_SEND_BEGIN_SENSING_MESSAGE
 __interupt DidSendBeginSensingMessage();
 
-#pragma vector=GET_ULTRASONIC_SIGNAL_UP
-__interupt DidReceiveUltrasonicSignalUp();
+#pragma - GET_ULTRASONIC_SIGNAL_RISE
+__interupt DidReceiveUltrasonicSignalRise();
 
-#pragma vector=GET_ULTRASONIC_SIGNAL_DOWN
-__interupt DidReceiveUltrasonicSignalDown();
+#pragma - GET_ULTRASONIC_SIGNAL_FALL
+__interupt DidReceiveUltrasonicSignalFall();
 */
 
 #endif

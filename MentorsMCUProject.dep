@@ -6,19 +6,24 @@
   <configuration>
     <name>Debug</name>
     <outputs>
-      <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
+      <file>$PROJ_DIR$\camera.c</file>
+      <file>$PROJ_DIR$\compass.c</file>
+      <file>$PROJ_DIR$\motion_meter.c</file>
       <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\infrared.c</file>
+      <file>$PROJ_DIR$\motors.c</file>
+      <file>$PROJ_DIR$\sensing_motor.c</file>
+      <file>$PROJ_DIR$\ultrasonic.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
       <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
       <file>$PROJ_DIR$\Debug\Exe\MentorsMCUProject.d43</file>
       <file>$PROJ_DIR$\..\..\..\..\..\..\..\[ROOT_NODE]</file>
+      <file>$PROJ_DIR$\ultrasonic.h</file>
+      <file>$PROJ_DIR$\sensors.h</file>
       <file>$PROJ_DIR$\Debug\Obj\MentorsMCUProject.pbd</file>
       <file>$TOOLKIT_DIR$\inc\msp430f149.h</file>
       <file>$TOOLKIT_DIR$\inc\in430.h</file>
-      <file>$PROJ_DIR$\sensor.h</file>
-      <file>$PROJ_DIR$\motion.h</file>
       <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
-      <file>$PROJ_DIR$\sensors.h</file>
-      <file>$PROJ_DIR$\ultrasonic.h</file>
       <file>$PROJ_DIR$\motions.h</file>
       <file>$PROJ_DIR$\Debug\Obj\sensing_motor.pbi</file>
       <file>$PROJ_DIR$\motion_meter.h</file>
@@ -30,20 +35,13 @@
       <file>$TOOLKIT_DIR$\config\lnk430F149.xcl</file>
       <file>$TOOLKIT_DIR$\config\multiplier.xcl</file>
       <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.r43</file>
-      <file>$PROJ_DIR$\ultrasonic.c</file>
       <file>$PROJ_DIR$\Debug\Obj\ultrasonic.r43</file>
       <file>$PROJ_DIR$\Debug\Obj\ultrasonic.pbi</file>
       <file>$PROJ_DIR$\Debug\Obj\infrared.pbi</file>
-      <file>$PROJ_DIR$\infrared.c</file>
       <file>$PROJ_DIR$\Debug\Obj\infrared.r43</file>
-      <file>$PROJ_DIR$\sensing_motor.c</file>
-      <file>$PROJ_DIR$\motors.c</file>
       <file>$PROJ_DIR$\parameters.h</file>
       <file>$PROJ_DIR$\basic_types.h</file>
-      <file>$PROJ_DIR$\motion_meter.c</file>
-      <file>$PROJ_DIR$\compass.c</file>
       <file>$PROJ_DIR$\Debug\Obj\motion_meter.r43</file>
-      <file>$PROJ_DIR$\camera.c</file>
       <file>$PROJ_DIR$\Debug\Obj\motion_meter.pbi</file>
       <file>$PROJ_DIR$\Debug\Obj\compass.r43</file>
       <file>$PROJ_DIR$\Debug\Obj\compass.pbi</file>
@@ -54,181 +52,7 @@
       <file>$PROJ_DIR$\Debug\Obj\sensing_motor.r43</file>
     </outputs>
     <file>
-      <name>$PROJ_DIR$\main.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 2</file>
-        </tool>
-        <tool>
-          <name>ICC430</name>
-          <file> 0</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 6 7 10 11 12 16 33 15 17 18 13 19 20 32</file>
-        </tool>
-        <tool>
-          <name>ICC430</name>
-          <file> 6 7 10 11 12 16 33 15 17 18 13 19 20 32</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\Debug\Exe\MentorsMCUProject.d43</name>
-      <inputs>
-        <tool>
-          <name>XLINK</name>
-          <file> 21 22 41 39 29 0 36 43 45 25 23</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\..\..\[ROOT_NODE]</name>
-      <outputs>
-        <tool>
-          <name>XLINK</name>
-          <file> 3</file>
-        </tool>
-      </outputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\Debug\Obj\MentorsMCUProject.pbd</name>
-      <inputs>
-        <tool>
-          <name>BILINK</name>
-          <file> 42 40 27 2 38 44 14 26</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\..\..\[ROOT_NODE]</name>
-      <outputs>
-        <tool>
-          <name>XLINK</name>
-          <file> 3</file>
-        </tool>
-      </outputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\ultrasonic.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 26</file>
-        </tool>
-        <tool>
-          <name>ICC430</name>
-          <file> 25</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 12</file>
-        </tool>
-        <tool>
-          <name>ICC430</name>
-          <file> 12</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\infrared.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 27</file>
-        </tool>
-        <tool>
-          <name>ICC430</name>
-          <file> 29</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 16 33</file>
-        </tool>
-        <tool>
-          <name>ICC430</name>
-          <file> 16 33</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\sensing_motor.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 14</file>
-        </tool>
-        <tool>
-          <name>ICC430</name>
-          <file> 45</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 20</file>
-        </tool>
-        <tool>
-          <name>ICC430</name>
-          <file> 20</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\motors.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 44</file>
-        </tool>
-        <tool>
-          <name>ICC430</name>
-          <file> 43</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 19</file>
-        </tool>
-        <tool>
-          <name>ICC430</name>
-          <file> 19</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\motion_meter.c</name>
-      <outputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 38</file>
-        </tool>
-        <tool>
-          <name>ICC430</name>
-          <file> 36</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>BICOMP</name>
-          <file> 15</file>
-        </tool>
-        <tool>
-          <name>ICC430</name>
-          <file> 15</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\compass.c</name>
+      <name>$PROJ_DIR$\camera.c</name>
       <outputs>
         <tool>
           <name>BICOMP</name>
@@ -242,16 +66,108 @@
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 17</file>
+          <file> 23</file>
         </tool>
         <tool>
           <name>ICC430</name>
-          <file> 17</file>
+          <file> 23</file>
         </tool>
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\camera.c</name>
+      <name>$PROJ_DIR$\compass.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 37</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 22</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\motion_meter.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 36</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 35</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 20</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 8</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15 16 17 13 12 21 34 20 22 23 18 24 25 33</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 15 16 17 13 12 21 34 20 22 23 18 24 25 33</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\infrared.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 32</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21 34</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 21 34</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\motors.c</name>
       <outputs>
         <tool>
           <name>BICOMP</name>
@@ -265,13 +181,95 @@
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 18</file>
+          <file> 24</file>
         </tool>
         <tool>
           <name>ICC430</name>
-          <file> 18</file>
+          <file> 24</file>
         </tool>
       </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\sensing_motor.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 43</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 25</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\ultrasonic.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 29</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 12</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\MentorsMCUProject.d43</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 26 27 39 37 32 8 35 41 43 29 28</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 10</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\MentorsMCUProject.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 40 38 31 9 36 42 19 30</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 10</file>
+        </tool>
+      </outputs>
     </file>
   </configuration>
   <configuration>
