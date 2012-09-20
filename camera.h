@@ -11,6 +11,9 @@
 #ifndef _CAMERA_H_
 #define _CAMERA_H_
 
-
+/*
+#pragma vector=DID_REICEIVE_COMMUNICATION
+__interupt void DidReceiveCommunication();
+*/
 
 #endif

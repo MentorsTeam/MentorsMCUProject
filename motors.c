@@ -31,5 +31,6 @@ void StopRotate(Motor moter) {
 }
 
 void StopMove() {
-    
+    StopRotate(MotorLeft);
+    StopRotate(MotorRight);
 }

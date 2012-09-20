@@ -11,7 +11,7 @@
 #ifndef _MOTORS_H_
 #define _MOTORS_H_
 
-enum {
+typedef enum {
     MotorLeft,
     MotorRight
 } Motor;
