@@ -13,8 +13,12 @@
 #include "motion.h"
 
 int main(void) {
-  // Stop watchdog timer to prevent time out reset
-  WDTCTL = WDTPW + WDTHOLD;
-
-  return 0;
+  
+  while (1) {
+      // Stop watchdog timer to prevent time out reset
+      WDTCTL = WDTPW + WDTHOLD;
+      
+      // TODO
+  }
+  
 }

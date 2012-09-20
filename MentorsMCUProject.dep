@@ -8,13 +8,14 @@
     <outputs>
       <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
       <file>$PROJ_DIR$\main.c</file>
-      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
       <file>$PROJ_DIR$\Debug\Exe\MentorsMCUProject.d43</file>
       <file>$PROJ_DIR$\Debug\Obj\MentorsMCUProject.pbd</file>
-      <file>$PROJ_DIR$\sensor.h</file>
-      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
       <file>$TOOLKIT_DIR$\inc\msp430f149.h</file>
-      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$PROJ_DIR$\sensor.h</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\[ROOT_NODE]</file>
       <file>$PROJ_DIR$\motion.h</file>
     </outputs>
     <file>
@@ -22,7 +23,7 @@
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 2</file>
+          <file> 5</file>
         </tool>
         <tool>
           <name>ICC430</name>
@@ -32,11 +33,11 @@
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 7 6 8 5 9</file>
+          <file> 6 7 2 8 10</file>
         </tool>
         <tool>
           <name>ICC430</name>
-          <file> 7 6 8 5 9</file>
+          <file> 6 7 2 8 10</file>
         </tool>
       </inputs>
     </file>
@@ -45,12 +46,21 @@
       <inputs>
         <tool>
           <name>BILINK</name>
-          <file> 2</file>
+          <file> 5</file>
         </tool>
       </inputs>
     </file>
     <file>
-      <name>[ROOT_NODE]</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 3</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\[ROOT_NODE]</name>
       <outputs>
         <tool>
           <name>XLINK</name>
