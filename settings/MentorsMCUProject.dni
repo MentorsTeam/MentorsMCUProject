@@ -30,7 +30,7 @@ ActionState=1
 Enabled=0
 ShowSource=1
 [DebugChecksum]
-Checksum=1420309716
+Checksum=-478511019
 [State Storage]
 Control Register=0
 [Sequencer]
@@ -38,15 +38,8 @@ Control Register=0
 NextState0=0
 NextState1=0
 [Action Register]
-Break=2
-State Storage=2
-[Log file]
-LoggingEnabled=_ 0
-LogFile=_ ""
-Category=_ 0
-[TermIOLog]
-LoggingEnabled=_ 0
-LogFile=_ ""
+Break=1
+State Storage=1
 [CallStack]
 ShowArgs=0
 [Disassembly]
@@ -58,6 +51,13 @@ Enabled=0
 Mode=0
 Graph=0
 Symbiont=0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
 [Breakpoints]
 Count=0
 [FET]

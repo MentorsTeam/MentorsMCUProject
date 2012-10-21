@@ -32,14 +32,54 @@
 #include "parameters.h"
 #include "basic_types.h"
 
+void SystemConfig();
+void Delay(int time);
+
 int main(void) {
+    SystemConfig();
   
-  while (YES) {
-      // Stop watchdog timer to prevent time out reset
-      WDTCTL = WDTPW + WDTHOLD;
-      
-      // TODO
-      
+    while (YES) {
+        // Stop watchdog timer to prevent time out reset
+        WDTCTL = WDTPW + WDTHOLD;
+        
+        // TODO
+        BeginMoveForward();
+        Delay(1);
+        StopRotate(MotorLeft);
+        Delay(1);
+        BeginRotateForward(MotorLeft);
+        Delay(1);
+        StopRotate(MotorRight);
+        Delay(1);
+        BeginRotateForward(MotorRight);
+        Delay(1);
+        StopMove();
+        
+        BeginMoveBackward();
+        Delay(1);
+        StopRotate(MotorLeft);
+        Delay(1);
+        BeginRotateBackward(MotorLeft);
+        Delay(1);
+        StopRotate(MotorRight);
+        Delay(1);
+        BeginRotateBackward(MotorRight);
+        Delay(1);
+        StopMove();
   }
   
+}
+
+void SystemConfig() {
+    P3DIR = 0x0f;  // Motors
+}
+
+void Delay(int time) {
+    time <<= 1;
+    int i, j;
+    for (i=0; i<time; i++)
+        for (j=0; j<0xffff; j++) {
+             i ++;
+             i --;
+        }
 }

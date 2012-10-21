@@ -11,6 +11,8 @@
 #ifndef _MOTORS_H_
 #define _MOTORS_H_
 
+#include "msp430f149.h"
+
 typedef enum {
     MotorLeft,
     MotorRight
@@ -18,7 +20,7 @@ typedef enum {
 
 void BeginRotateForward(Motor motor);
 void BeginRotateBackward(Motor motor);
-void BeginMoveAhead();
+void BeginMoveForward();
 void BeginMoveBackward();
 
 void StopRotate(Motor moter);
