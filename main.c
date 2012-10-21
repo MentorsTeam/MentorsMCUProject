@@ -43,8 +43,8 @@ int main(void) {
         WDTCTL = WDTPW + WDTHOLD;
         
         // TODO
-        BeginMoveForward();
-        Delay(1);
+        //BeginMoveForward();
+        /*Delay(1);
         StopRotate(MotorLeft);
         Delay(1);
         BeginRotateForward(MotorLeft);
@@ -53,10 +53,10 @@ int main(void) {
         Delay(1);
         BeginRotateForward(MotorRight);
         Delay(1);
-        StopMove();
+        StopMove();*/
         
         BeginMoveBackward();
-        Delay(1);
+        /*Delay(1);
         StopRotate(MotorLeft);
         Delay(1);
         BeginRotateBackward(MotorLeft);
@@ -65,7 +65,7 @@ int main(void) {
         Delay(1);
         BeginRotateBackward(MotorRight);
         Delay(1);
-        StopMove();
+        StopMove();*/
   }
   
 }
