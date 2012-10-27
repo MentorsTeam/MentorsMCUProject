@@ -1,4 +1,4 @@
-/* ----------------------------------- 
+/* -----------------------------------
  * Mentors Team
  * ----------------------------------- 
  * main.c
@@ -9,10 +9,11 @@
 */
 
 #include "msp430f149.h"
+#include "system.h"
 
-/* ------------------------------ 
- * Project architecture
- * ------------------------------ 
+/* ------------------------------
+ * Peripheral list & file structure
+ * ------------------------------
  * sensors.h - (hub header file for sensors)
  *           - ultrasonic.h   --> low level functions for ultrasonic sensing
  *           - infrared.h     --> low level functions for infrared-ray sensing
@@ -27,58 +28,74 @@
  * parameters.h               --> parameters (eg. constants) used
  * basic_types.h              --> basic variable types defination
 */
+
 #include "sensors.h"
 #include "motions.h"
 #include "parameters.h"
 #include "basic_types.h"
 
-void SystemConfig();
-void Delay(int time);
+UltrasonicSensor usSensor;
+
+void systemConfig();
+void delay(int time);
 
 int main(void) {
-    SystemConfig();
-  
-    while (YES) {
+    systemConfig();
+
+    while (true) {
         // Stop watchdog timer to prevent time out reset
         WDTCTL = WDTPW + WDTHOLD;
         
-        // TODO
-        //BeginMoveForward();
-        /*Delay(1);
-        StopRotate(MotorLeft);
-        Delay(1);
-        BeginRotateForward(MotorLeft);
-        Delay(1);
-        StopRotate(MotorRight);
-        Delay(1);
-        BeginRotateForward(MotorRight);
-        Delay(1);
-        StopMove();*/
+        usSensor.beginSensing();
         
-        BeginMoveBackward();
-        /*Delay(1);
-        StopRotate(MotorLeft);
-        Delay(1);
-        BeginRotateBackward(MotorLeft);
-        Delay(1);
-        StopRotate(MotorRight);
-        Delay(1);
-        BeginRotateBackward(MotorRight);
-        Delay(1);
-        StopMove();*/
+        float distance = usSensor.getResult();
+        if (distance < 0.5) {
+            beginMoveBackward();
+        }
+        else {
+            beginMoveForward();
+        }
+        
+        // TODO
+        /*
+        beginMoveForward();
+        delay(1);
+        stopRotate(MotorLeft);
+        delay(1);
+        beginRotateForward(MotorLeft);
+        delay(1);
+        stopRotate(MotorRight);
+        delay(1);
+        beginRotateForward(MotorRight);
+        delay(1);
+        stopMove();
+        
+        beginMoveBackward(); 
+        delay(1);
+        stopRotate(MotorLeft);
+        delay(1);
+        beginRotateBackward(MotorLeft);
+        delay(1);
+        stopRotate(MotorRight);
+        delay(1);
+        beginRotateBackward(MotorRight);
+        delay(1);
+        stopMove();
+        */
   }
-  
 }
 
-void SystemConfig() {
-    P3DIR = 0x0f;  // Motors
+void systemConfig() {
+    P4DIR = 0x0f;  // Motors
+   _EINT();
 }
 
-void Delay(int time) {
+void delay(int time) {
     time <<= 1;
     int i, j;
     for (i=0; i<time; i++)
         for (j=0; j<0xffff; j++) {
+          WDTCTL = WDTPW + WDTHOLD;
              i ++;
              i --;
         }

@@ -1,3 +1,5 @@
+[DebugChecksum]
+Checksum=-1523541342
 [Stack]
 FillEnabled=0
 OverflowWarningsEnabled=1
@@ -8,6 +10,10 @@ UseTrigger=1
 TriggerName=main
 LimitSize=0
 ByteLimit=50
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
 [InterruptLog]
 LogEnabled=0
 SumEnabled=0
@@ -29,8 +35,6 @@ ActionState=1
 [Trace1]
 Enabled=0
 ShowSource=1
-[DebugChecksum]
-Checksum=-478511019
 [State Storage]
 Control Register=0
 [Sequencer]
@@ -40,10 +44,6 @@ NextState1=0
 [Action Register]
 Break=1
 State Storage=1
-[CallStack]
-ShowArgs=0
-[Disassembly]
-MixedMode=1
 [CallStackLog]
 Enabled=0
 [DriverProfiling]
@@ -59,7 +59,8 @@ Category=_ 0
 LoggingEnabled=_ 0
 LogFile=_ ""
 [Breakpoints]
-Count=0
+Bp0=_ "STD_CODE" "{$PROJ_DIR$\ultrasonic.cpp}.53.5" 1 0 0 0 "" 0 ""
+Count=1
 [FET]
 Extended Clock mode=-1
 Secure Password=

@@ -18,12 +18,12 @@ typedef enum {
     MotorRight
 } Motor;
 
-void BeginRotateForward(Motor motor);
-void BeginRotateBackward(Motor motor);
-void BeginMoveForward();
-void BeginMoveBackward();
+void beginRotateForward(Motor motor);
+void beginRotateBackward(Motor motor);
+void beginMoveForward();
+void beginMoveBackward();
 
-void StopRotate(Motor moter);
-void StopMove();
+void stopRotate(Motor moter);
+void stopMove();
 
 #endif

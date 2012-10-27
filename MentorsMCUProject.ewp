@@ -372,7 +372,7 @@
         </option>
         <option>
           <name>IccLang</name>
-          <state>0</state>
+          <state>2</state>
         </option>
         <option>
           <name>IccCDialect</name>
@@ -987,19 +987,19 @@
         <option>
           <name>GRuntimeLibSelect</name>
           <version>0</version>
-          <state>4</state>
+          <state>1</state>
         </option>
         <option>
           <name>RTDescription</name>
-          <state>Use the legacy C runtime library.</state>
+          <state>Use the normal configuration of the C/EC++ runtime library. No locale interface, C locale, no file descriptor support, no multibytes in printf and scanf, and no hex floats in strtod.</state>
         </option>
         <option>
           <name>RTConfigPath</name>
-          <state></state>
+          <state>$TOOLKIT_DIR$\LIB\DLIB\dl430fn.h</state>
         </option>
         <option>
           <name>RTLibraryPath</name>
-          <state>$TOOLKIT_DIR$\LIB\CLIB\cl430f.r43</state>
+          <state>$TOOLKIT_DIR$\LIB\DLIB\dl430fn.r43</state>
         </option>
         <option>
           <name>Input variant</name>
@@ -1022,7 +1022,7 @@
         <option>
           <name>GRuntimeLibSelectSlave</name>
           <version>0</version>
-          <state>4</state>
+          <state>1</state>
         </option>
         <option>
           <name>GeneralEnableMisra</name>
@@ -1305,7 +1305,7 @@
         </option>
         <option>
           <name>IccLang</name>
-          <state>0</state>
+          <state>2</state>
         </option>
         <option>
           <name>IccCDialect</name>
@@ -1869,28 +1869,61 @@
     </settings>
   </configuration>
   <file>
-    <name>$PROJ_DIR$\camera.c</name>
+    <name>$PROJ_DIR$\basic_types.h</name>
   </file>
   <file>
-    <name>$PROJ_DIR$\compass.c</name>
+    <name>$PROJ_DIR$\camera.cpp</name>
   </file>
   <file>
-    <name>$PROJ_DIR$\infrared.c</name>
+    <name>$PROJ_DIR$\camera.h</name>
   </file>
   <file>
-    <name>$PROJ_DIR$\main.c</name>
+    <name>$PROJ_DIR$\compass.cpp</name>
   </file>
   <file>
-    <name>$PROJ_DIR$\motion_meter.c</name>
+    <name>$PROJ_DIR$\compass.h</name>
   </file>
   <file>
-    <name>$PROJ_DIR$\motors.c</name>
+    <name>$PROJ_DIR$\infrared.cpp</name>
   </file>
   <file>
-    <name>$PROJ_DIR$\sensing_motor.c</name>
+    <name>$PROJ_DIR$\infrared.h</name>
   </file>
   <file>
-    <name>$PROJ_DIR$\ultrasonic.c</name>
+    <name>$PROJ_DIR$\main.cpp</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\motion_meter.cpp</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\motion_meter.h</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\motions.h</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\motors.cpp</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\motors.h</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\parameters.h</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\sensing_motor.cpp</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\sensing_motor.h</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\sensors.h</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\ultrasonic.cpp</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\ultrasonic.h</name>
   </file>
 </project>
 
