@@ -35,6 +35,7 @@
 #include "basic_types.h"
 
 UltrasonicSensor usSensor;
+int startCountOfUSSensor, stopCountOfUSSensor;
 
 void systemConfig();
 void delay(int time);
@@ -49,39 +50,20 @@ int main(void) {
         usSensor.beginSensing();
         
         float distance = usSensor.getResult();
-        if (distance < 0.5) {
-            beginMoveBackward();
-        }
-        else {
+        
+        if (distance < 0.3) {
             beginMoveForward();
         }
-        
-        // TODO
-        /*
-        beginMoveForward();
+        else if (distance < 0.6) {
+            beginRotateForward(MotorLeft);
+            beginRotateBackward(MotorRight);
+        }
+        else {
+            beginMoveBackward();
+        }
+ 
+        // beginMoveForward();
         delay(1);
-        stopRotate(MotorLeft);
-        delay(1);
-        beginRotateForward(MotorLeft);
-        delay(1);
-        stopRotate(MotorRight);
-        delay(1);
-        beginRotateForward(MotorRight);
-        delay(1);
-        stopMove();
-        
-        beginMoveBackward(); 
-        delay(1);
-        stopRotate(MotorLeft);
-        delay(1);
-        beginRotateBackward(MotorLeft);
-        delay(1);
-        stopRotate(MotorRight);
-        delay(1);
-        beginRotateBackward(MotorRight);
-        delay(1);
-        stopMove();
-        */
   }
 }
 
