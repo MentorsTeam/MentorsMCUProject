@@ -44,12 +44,19 @@ int main(void) {
   	float distanceNear = kDistanceNearInitial;
 	ControllMode currentMode = ControllModeSearching;
 	int approachCount = 0, backOffCount = 0;
+	
+	int programCount = 0;
   
     systemConfig();
 
     while (true) {
         // Stop watchdog timer to prevent time out reset
         WDTCTL = WDTPW + WDTHOLD;
+		programCount ++;
+		if (programCount == 0xffff) {
+		  	// asm JMP 0x0000;
+		  	for (;;);
+		}
         
         usSensor.beginSensing();
         float distance = usSensor.getResult();

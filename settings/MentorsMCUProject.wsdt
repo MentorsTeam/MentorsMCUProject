@@ -12,7 +12,7 @@
           
           
           
-        <Column0>182</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+        <Column0>165</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
       </Workspace>
       <Build>
         
@@ -25,7 +25,7 @@
     <Windows>
       
       
-    <Wnd2>
+    <Wnd0>
         <Tabs>
           <Tab>
             <Identity>TabID-15510-2559</Identity>
@@ -37,7 +37,7 @@
           </Tab>
         </Tabs>
         
-      <SelectedTab>0</SelectedTab></Wnd2><Wnd3>
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1>
         <Tabs>
           <Tab>
             <Identity>TabID-29165-2712</Identity>
@@ -47,20 +47,20 @@
           </Tab>
         <Tab><Identity>TabID-16540-3749</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab></Tabs>
         
-      <SelectedTab>0</SelectedTab></Wnd3></Windows>
+      <SelectedTab>0</SelectedTab></Wnd1></Windows>
     <Editor>
       
       
       
       
-    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\ultrasonic.h</Filename><XPos>0</XPos><YPos>8</YPos><SelStart>232</SelStart><SelEnd>232</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\compass.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>236</SelStart><SelEnd>236</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\compass.cpp</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\system.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>265</SelStart><SelEnd>265</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\sensors.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>267</SelStart><SelEnd>275</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\sensing_motor.cpp</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\basic_types.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>285</SelStart><SelEnd>285</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\ultrasonic.cpp</Filename><XPos>0</XPos><YPos>18</YPos><SelStart>678</SelStart><SelEnd>678</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\parameters.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>403</SelStart><SelEnd>403</SelEnd></Tab><ActiveTab>8</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\main.cpp</Filename><XPos>0</XPos><YPos>73</YPos><SelStart>2209</SelStart><SelEnd>2209</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\motors.cpp</Filename><XPos>0</XPos><YPos>42</YPos><SelStart>1250</SelStart><SelEnd>1250</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\motors.h</Filename><XPos>0</XPos><YPos>6</YPos><SelStart>497</SelStart><SelEnd>497</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\infrared.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>405</SelStart><SelEnd>405</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\infrared.cpp</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>305</SelStart><SelEnd>305</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\ultrasonic.h</Filename><XPos>0</XPos><YPos>8</YPos><SelStart>232</SelStart><SelEnd>232</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\compass.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>236</SelStart><SelEnd>236</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\compass.cpp</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\system.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>265</SelStart><SelEnd>265</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\sensors.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>267</SelStart><SelEnd>275</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\sensing_motor.cpp</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\basic_types.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>285</SelStart><SelEnd>285</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\ultrasonic.cpp</Filename><XPos>0</XPos><YPos>18</YPos><SelStart>678</SelStart><SelEnd>678</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\parameters.h</Filename><XPos>0</XPos><YPos>7</YPos><SelStart>414</SelStart><SelEnd>414</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\main.cpp</Filename><XPos>0</XPos><YPos>43</YPos><SelStart>1700</SelStart><SelEnd>1700</SelEnd></Tab><ActiveTab>9</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\motors.cpp</Filename><XPos>0</XPos><YPos>42</YPos><SelStart>1250</SelStart><SelEnd>1250</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\motors.h</Filename><XPos>0</XPos><YPos>6</YPos><SelStart>497</SelStart><SelEnd>497</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\infrared.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>405</SelStart><SelEnd>405</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\infrared.cpp</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>305</SelStart><SelEnd>305</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
     <Positions>
       
       
       
       
       
-    <Top><Row0><Sizes><Toolbar-01c357d8><key>iaridepm.enu1</key></Toolbar-01c357d8></Sizes></Row0></Top><Left><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>485</Bottom><Right>256</Right><x>-2</x><y>-2</y><xscreen>102</xscreen><yscreen>98</yscreen><sizeHorzCX>108051</sizeHorzCX><sizeHorzCY>139601</sizeHorzCY><sizeVertCX>273305</sizeVertCX><sizeVertCY>693732</sizeVertCY></Rect></Wnd2></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>172</Bottom><Right>946</Right><x>-2</x><y>-2</y><xscreen>948</xscreen><yscreen>174</yscreen><sizeHorzCX>1004237</sizeHorzCX><sizeHorzCY>247863</sizeHorzCY><sizeVertCX>108051</sizeVertCX><sizeVertCY>139601</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+    <Top><Row0><Sizes><Toolbar-00f957d8><key>iaridepm.enu1</key></Toolbar-00f957d8></Sizes></Row0></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>454</Bottom><Right>256</Right><x>-2</x><y>-2</y><xscreen>102</xscreen><yscreen>69</yscreen><sizeHorzCX>79688</sizeHorzCX><sizeHorzCY>96100</sizeHorzCY><sizeVertCX>201563</sizeVertCX><sizeVertCY>635097</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>219</Bottom><Right>1282</Right><x>-2</x><y>-2</y><xscreen>1284</xscreen><yscreen>221</yscreen><sizeHorzCX>1003125</sizeHorzCX><sizeHorzCY>307799</sizeHorzCY><sizeVertCX>79688</sizeVertCX><sizeVertCY>96100</sizeVertCY></Rect></Wnd1></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
   </Desktop>
 </Workspace>
 
