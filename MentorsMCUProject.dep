@@ -7,10 +7,10 @@
     <name>Debug</name>
     <outputs>
       <file>$PROJ_DIR$\basic_types.h</file>
-      <file>$PROJ_DIR$\camera.cpp</file>
       <file>$PROJ_DIR$\compass.h</file>
-      <file>$PROJ_DIR$\compass.cpp</file>
       <file>$PROJ_DIR$\camera.h</file>
+      <file>$PROJ_DIR$\camera.cpp</file>
+      <file>$PROJ_DIR$\compass.cpp</file>
       <file>$PROJ_DIR$\infrared.cpp</file>
       <file>$PROJ_DIR$\infrared.h</file>
       <file>$PROJ_DIR$\main.cpp</file>
@@ -28,13 +28,13 @@
       <file>$PROJ_DIR$\Debug\Obj\motion_meter.r43</file>
       <file>$PROJ_DIR$\Debug\Obj\camera.pbi</file>
       <file>$PROJ_DIR$\Debug\Obj\ultrasonic.r43</file>
-      <file>$PROJ_DIR$\Debug\Obj\ultrasonic.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\sensing_motor.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
-      <file>$PROJ_DIR$\Debug\Obj\motors.pbi</file>
-      <file>$PROJ_DIR$\Debug\Obj\compass.pbi</file>
       <file>$PROJ_DIR$\Debug\Obj\motion_meter.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\compass.pbi</file>
       <file>$PROJ_DIR$\Debug\Obj\infrared.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\motors.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\sensing_motor.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ultrasonic.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
       <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
       <file>$PROJ_DIR$\Debug\Obj\MentorsMCUProject.pbd</file>
       <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
@@ -50,78 +50,10 @@
       <file>$PROJ_DIR$\Debug\Obj\compass.r43</file>
       <file>$PROJ_DIR$\Debug\Obj\sensing_motor.r43</file>
       <file>$PROJ_DIR$\Debug\Obj\infrared.r43</file>
+      <file>$PROJ_DIR$\..\..\..\..\..\..\..\[ROOT_NODE]</file>
     </outputs>
     <file>
-      <name>$PROJ_DIR$\camera.cpp</name>
-      <outputs>
-        <tool>
-          <name>ICC430</name>
-          <file> 33</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 20</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ICC430</name>
-          <file> 4</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 4</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\compass.cpp</name>
-      <outputs>
-        <tool>
-          <name>ICC430</name>
-          <file> 41</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 26</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ICC430</name>
-          <file> 2</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 2</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\infrared.cpp</name>
-      <outputs>
-        <tool>
-          <name>ICC430</name>
-          <file> 43</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 28</file>
-        </tool>
-      </outputs>
-      <inputs>
-        <tool>
-          <name>ICC430</name>
-          <file> 6 0</file>
-        </tool>
-        <tool>
-          <name>BICOMP</name>
-          <file> 6 0</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>[ROOT_NODE]</name>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\[ROOT_NODE]</name>
       <outputs>
         <tool>
           <name>XLINK</name>
@@ -130,25 +62,94 @@
       </outputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\main.cpp</name>
+      <name>$PROJ_DIR$\camera.cpp</name>
       <outputs>
         <tool>
-          <name>ICC430</name>
-          <file> 24</file>
+          <name>BICOMP</name>
+          <file> 20</file>
         </tool>
         <tool>
-          <name>BICOMP</name>
-          <file> 29</file>
+          <name>ICC430</name>
+          <file> 33</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
-          <name>ICC430</name>
-          <file> 32 38 31 39 16 18 6 0 9 2 4 10 12 15 13</file>
+          <name>BICOMP</name>
+          <file> 2</file>
         </tool>
         <tool>
+          <name>ICC430</name>
+          <file> 2</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\compass.cpp</name>
+      <outputs>
+        <tool>
           <name>BICOMP</name>
-          <file> 32 38 31 39 16 18 6 0 9 2 4 10 12 15 13</file>
+          <file> 23</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 41</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 1</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 1</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\infrared.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 24</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 43</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 0</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 6 0</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.cpp</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 28</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 32 38 31 39 16 18 6 0 9 1 2 10 12 15 13</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 32 38 31 39 16 18 6 0 9 1 2 10 12 15 13</file>
         </tool>
       </inputs>
     </file>
@@ -156,21 +157,21 @@
       <name>$PROJ_DIR$\motion_meter.cpp</name>
       <outputs>
         <tool>
-          <name>ICC430</name>
-          <file> 19</file>
+          <name>BICOMP</name>
+          <file> 22</file>
         </tool>
         <tool>
-          <name>BICOMP</name>
-          <file> 27</file>
+          <name>ICC430</name>
+          <file> 19</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
-          <name>ICC430</name>
+          <name>BICOMP</name>
           <file> 9</file>
         </tool>
         <tool>
-          <name>BICOMP</name>
+          <name>ICC430</name>
           <file> 9</file>
         </tool>
       </inputs>
@@ -179,21 +180,21 @@
       <name>$PROJ_DIR$\motors.cpp</name>
       <outputs>
         <tool>
-          <name>ICC430</name>
-          <file> 40</file>
-        </tool>
-        <tool>
           <name>BICOMP</name>
           <file> 25</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 40</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
-          <name>ICC430</name>
+          <name>BICOMP</name>
           <file> 12 32 38 31</file>
         </tool>
         <tool>
-          <name>BICOMP</name>
+          <name>ICC430</name>
           <file> 12 32 38 31</file>
         </tool>
       </inputs>
@@ -202,21 +203,21 @@
       <name>$PROJ_DIR$\sensing_motor.cpp</name>
       <outputs>
         <tool>
-          <name>ICC430</name>
-          <file> 42</file>
+          <name>BICOMP</name>
+          <file> 26</file>
         </tool>
         <tool>
-          <name>BICOMP</name>
-          <file> 23</file>
+          <name>ICC430</name>
+          <file> 42</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
-          <name>ICC430</name>
+          <name>BICOMP</name>
           <file> 15</file>
         </tool>
         <tool>
-          <name>BICOMP</name>
+          <name>ICC430</name>
           <file> 15</file>
         </tool>
       </inputs>
@@ -225,21 +226,21 @@
       <name>$PROJ_DIR$\ultrasonic.cpp</name>
       <outputs>
         <tool>
-          <name>ICC430</name>
-          <file> 21</file>
+          <name>BICOMP</name>
+          <file> 27</file>
         </tool>
         <tool>
-          <name>BICOMP</name>
-          <file> 22</file>
+          <name>ICC430</name>
+          <file> 21</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
-          <name>ICC430</name>
+          <name>BICOMP</name>
           <file> 18 32 38 31 39</file>
         </tool>
         <tool>
-          <name>BICOMP</name>
+          <name>ICC430</name>
           <file> 18 32 38 31 39</file>
         </tool>
       </inputs>
@@ -249,7 +250,7 @@
       <inputs>
         <tool>
           <name>BILINK</name>
-          <file> 20 26 28 29 27 25 23 22</file>
+          <file> 20 23 24 29 22 25 26 27</file>
         </tool>
       </inputs>
     </file>
@@ -258,9 +259,18 @@
       <inputs>
         <tool>
           <name>XLINK</name>
-          <file> 36 37 33 41 43 24 19 40 42 21 35</file>
+          <file> 36 37 33 41 43 28 19 40 42 21 35</file>
         </tool>
       </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\..\..\..\..\..\[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 34</file>
+        </tool>
+      </outputs>
     </file>
   </configuration>
   <configuration>

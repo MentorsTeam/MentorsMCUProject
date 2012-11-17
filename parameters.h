@@ -14,4 +14,8 @@
 #define GROUND_WIDTH  2400
 #define GROUND_HEIGHT 2400
 
+#define kDistanceNearInitial 1.80
+#define kApproachCountMax 1000
+#define kBackOffCountMax 500
+
 #endif

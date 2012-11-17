@@ -22,6 +22,8 @@ void beginRotateForward(Motor motor);
 void beginRotateBackward(Motor motor);
 void beginMoveForward();
 void beginMoveBackward();
+void beginTurnLeft();
+void beginTurnRight();
 
 void stopRotate(Motor moter);
 void stopMove();

@@ -10,7 +10,7 @@
 
 #include "infrared.h"
 
-Bool IsBlackLineUnderSensor(InfraredSensor sensor) {
+bool IsBlackLineUnderSensor(InfraredSensor sensor) {
     // TODO
-    return NO;
+    return false;
 }

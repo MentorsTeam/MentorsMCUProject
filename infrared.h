@@ -20,6 +20,6 @@ typedef enum {
     InfraredSensorBack
 } InfraredSensor;
 
-Bool IsBlackLineUnderSensor(InfraredSensor sensor);
+bool IsBlackLineUnderSensor(InfraredSensor sensor);
 
 #endif

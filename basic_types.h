@@ -12,8 +12,9 @@
 #define _BASIC_TYPES_H_
 
 typedef enum {
-    NO,
-    YES
-} Bool;
+  	ControllModeApproaching,
+	ControllModeSearching,
+	ControllModeBackingOff
+} ControllMode;
 
 #endif

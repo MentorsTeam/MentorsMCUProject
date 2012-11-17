@@ -41,6 +41,10 @@ void systemConfig();
 void delay(int time);
 
 int main(void) {
+  	float distanceNear = kDistanceNearInitial;
+	ControllMode currentMode = ControllModeSearching;
+	int approachCount = 0, backOffCount = 0;
+  
     systemConfig();
 
     while (true) {
@@ -48,9 +52,9 @@ int main(void) {
         WDTCTL = WDTPW + WDTHOLD;
         
         usSensor.beginSensing();
-        
         float distance = usSensor.getResult();
         
+        /*
         if (distance < 0.3) {
             beginMoveForward();
         }
@@ -61,9 +65,40 @@ int main(void) {
         else {
             beginMoveBackward();
         }
- 
-        // beginMoveForward();
-        delay(1);
+        */
+		
+		switch (currentMode) {
+		  
+		case ControllModeSearching:
+		  	beginTurnLeft();
+			if (distance < distanceNear) {
+				beginMoveForward();
+				if (currentMode != ControllModeApproaching) {
+			  		approachCount = 0;
+				}
+				else {
+				  	approachCount ++;
+				}
+				currentMode = ControllModeApproaching;
+			}
+			break;
+			
+		case ControllModeApproaching:
+		  	beginMoveForward();
+		  	if (approachCount >= kApproachCountMax) {
+			  	approachCount = 0;
+				currentMode = ControllModeBackingOff;
+			}
+			break;
+			
+		case ControllModeBackingOff:
+		  	beginMoveBackward();
+		 	if (backOffCount >= kBackOffCountMax) {
+		        backOffCount = 0;
+				currentMode = ControllModeSearching;
+		  	}
+		  	break;
+		}
   }
 }
 
