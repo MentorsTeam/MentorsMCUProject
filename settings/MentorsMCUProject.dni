@@ -1,5 +1,5 @@
 [DebugChecksum]
-Checksum=356741619
+Checksum=-826633949
 [Stack]
 FillEnabled=0
 OverflowWarningsEnabled=1
@@ -51,16 +51,18 @@ Enabled=0
 Mode=0
 Graph=0
 Symbiont=0
-[TermIOLog]
-LoggingEnabled=_ 0
-LogFile=_ ""
 [Log file]
 LoggingEnabled=_ 0
 LogFile=_ ""
 Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
 [Breakpoints]
 Bp0=_ "STD_CODE" "{$PROJ_DIR$\ultrasonic.cpp}.78.12" 1 0 0 0 "" 0 ""
-Count=1
+Bp1=_ "STD_CODE" "{$PROJ_DIR$\main.cpp}.52.6" 1 0 0 0 "" 0 ""
+Bp2=_ "STD_CODE" "{$PROJ_DIR$\main.cpp}.107.27" 0 0 0 0 "" 0 ""
+Count=3
 [FET]
 Extended Clock mode=-1
 Secure Password=

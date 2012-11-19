@@ -11,6 +11,6 @@
 #ifndef _SYSTEM_H_
 #define _SYSTEM_H_
 
-#define INFINITE_DISTANCE 0.25
+#define INFINITE_DISTANCE 10.0
 
 #endif

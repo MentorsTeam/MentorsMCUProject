@@ -78,9 +78,12 @@ __interrupt void didDetectEdge(void)
            usSensor.setResult();
         }    
        break;
-    case 10:                               //定时器溢出中断
-       //overflow++;
-       break;                              //溢出计数加1
+    case 10:                              //定时器溢出中断
+      {CCTL1=(CCTL1&(~CM1))|CM0;       //更变设置为上升沿触发
+           stopCountOfUSSensor = startCountOfUSSensor;                        //用start,end,overflow计算脉冲宽度
+           usSensor.setResult();
+      //overflow++;
+           break;}                              //溢出计数加1
     default:break;
   }
 }

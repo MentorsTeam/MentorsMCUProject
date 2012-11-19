@@ -14,7 +14,8 @@
 typedef enum {
   	ControllModeApproaching,
 	ControllModeSearching,
-	ControllModeBackingOff
+	ControllModeBackingOff,
+        ControllModeIDontKnowWhatTheHellShouldIDo
 } ControllMode;
 
 #endif

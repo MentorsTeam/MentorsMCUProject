@@ -55,8 +55,8 @@ void beginMoveBackward() {
 }
 
 void beginTurnLeft() {
-  	beginRotateBackward(MotorLeft);
-    beginRotateForward(MotorRight);
+  	beginRotateForward(MotorRight);
+    beginRotateBackward(MotorLeft);
 }
 
 void beginTurnRight() {
